@@ -1,0 +1,68 @@
+@font-face {
+  font-family: DSDigital;
+  src: url(/fonts/ds_digital/DS-DIGIB.TTF);
+}
+body {
+  margin: 0;
+  background: #111;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  align-items: center;
+  margin: 0 auto;
+}
+.leading {
+  box-shadow: 0px 0px 0px 2px #ffbe68;
+}
+.score {
+  display: flex;
+  background: #333;
+  height: 150px;
+  font-size: 64px;
+  color: #ffbe68;
+  text-shadow: 0px 0px 10px rgba(255, 190, 104, 0.4);
+  border-radius: 12px;
+  margin-bottom: 12px;
+  align-items: center;
+  justify-content: center;
+  font-family: "DSDigital", Courier;
+}
+.score-buttons button {
+  border: 1px solid white;
+  padding: 8px;
+  color: white;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-family: "DSDigital", Courier;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.score-buttons button:hover {
+  background: white;
+  color: #333;
+}
+.new-game {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.new-game button {
+  background: rgb(212, 212, 241);
+  font-family: "DSDigital", Courier;
+  border: 0px;
+  font-size: 24px;
+  padding: 8px 24px;
+}
+
+.container h3 {
+  color: white;
+  font-family: "Verdana", sans-serif;
+  text-align: center;
+  font-size: 32px;
+}
